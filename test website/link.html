@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head><style>
+body{
+background:pink;
+}
+
+table{
+color:white;
+background:black;
+text-align:left;
+}
+</style></head>
+<body >
+<form method="" action="submit.html">
+<center><h1>Registration form</h1>
+<table border="10" bordercolor="white"  width="600" height="700" cellpadding="10" cellspacing="15"  >
+<tr>
+<th>Enter your first name</th>
+<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/></td>
+</tr>
+<tr>
+<th>Enter your last name</th>
+<td><input type="text"/></td>
+</tr>
+<tr>
+<th>Enter your email</th>
+<td><input type="email"/></td>
+</tr>
+<tr>
+<th>Enter your mobile</th>
+<td><input type="tel" maxlength="10"/></td>
+</tr>
+<tr>
+<tr>
+<th>Select your gender</th>
+<td>
+male<input type="radio" name="g" value="m"/>
+female<input type="radio" name="g" value="f"/>
+</td>
+</tr>
+<tr>
+<th>Select how much you want to score minimum</th>
+<td>
+20-30<input type="checkbox" name="x" value="h1"/><br>
+30-40<input type="checkbox" name="x" value="h2"/><br>
+40-50<input type="checkbox" name="x" value="h3"/>
+</td>
+</tr>
+<tr>
+<th>Select your DOB</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+<th>Select which section</th>
+<td>
+<select name="section">
+<option value="" selected="selected" disabled="disabled">Select your section</option>
+<option value="1">A or B</option>
+<option value="2">C</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit"/>
+<input type="reset" value="Reset Data"/>
+</td>
+</tr>
+</table></center>
+</form>
+</body>
+</html>
